@@ -1,0 +1,93 @@
+nav a{
+	text-decoration: none;
+    color: aliceblue;
+}
+nav li {
+	padding: 5px;
+	margin: 15px;
+	display: inline;
+	list-style-type: none;
+	color: #8ed2fc;
+}
+nav ul {
+	padding: 10px;
+	text-decoration: none;
+	border-top: 1px solid #0172BA;
+	border-bottom: 1px solid #0172BA;
+	background-color: #27a9fa;
+	text-align: right;
+}
+#Projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+.Project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px; 
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color:#27a9fa;
+    text-align: center;
+}
+
+/* Project image styling */
+.Project img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Optional styling for the project title */
+.Project h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+#SnS{
+    padding-top: 50px;
+}
+#resumeimg{
+    border: 20px solid #0172BA;
+    flex-wrap: wrap;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+#resumetext{
+    flex-wrap: wrap;
+    color: white;
+    border: 10px solid #0172BA;
+    background-color: #0172BA;
+    text-align: center;
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+#introduction{
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+#me{
+    padding: 15px;
+    background-color: #27a9fa;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.introtext {
+    max-width: 700px; /* Limits width to 700 pixels */
+    margin: 0 auto; /* Centers the div */
+    padding: 20px; /* Optional: adds padding inside the div */
+    text-align: center; /* Centers the text inside */
+}
+.skill{
+    display: inline-block;
+    text-indent: 20px;
+    padding: 5px;
+}
